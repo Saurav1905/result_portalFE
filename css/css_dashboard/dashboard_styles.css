@@ -2,6 +2,7 @@ html,
 body {
   font-family: "Roboto", "Helvetica", sans-serif;
 }
+
 .demo-avatar {
   width: 48px;
   height: 48px;
@@ -293,4 +294,21 @@ table {
 }
 .mdl-layout__header{
   box-shadow: none;
+
+}
+.demo-drawer-header p{
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.demo-drawer-header{
+  min-height: 30vh;
+  display: flex;
+}
+.spacing{
+  flex:1
+}
+.demo-drawer-header .demo-avatar{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
 }
