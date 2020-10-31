@@ -291,3 +291,6 @@ table {
     overflow-x: auto;
   }
 }
+.mdl-layout__header{
+  box-shadow: none;
+}
