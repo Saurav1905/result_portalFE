@@ -1,8 +1,9 @@
-html,
-body {
-  font-family: "Roboto", "Helvetica", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 .demo-avatar {
   width: 48px;
   height: 48px;
@@ -260,4 +261,68 @@ color: #383838;
 .demo-layout .demo-navigation .mdl-navigation__link,
 .demo-navigation .mdl-navigation__link .material-icons{
   color: #7a7a7a;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #5ebeca;
+  height: 147px;
+  width: 494.63px;
+  border-radius: 5px;
+  padding: 10.63px;
+  box-shadow: 10px 11px 21px -8px rgba(0, 0, 0, 0.25);
+}
+.card__pointer{
+  background-color: #F5F5F8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 116px;
+  width: 229px;
+}
+.card__holder{
+  height: 116px;
+}
+.card__heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__heading h1{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  color: #F5F5F8;
+font-family: "Open Sans", Times, serif;
+}
+.card__heading h3{
+  margin: 0;
+  font-size: 17px;
+  color: #F5F5F8;
+  font-family: "Open Sans", Times, serif;
+}
+.card__credits h5{
+font-style: normal;
+font-size: 14px;
+color: #F5F5F8;
+font-family: "Open Sans", Times, serif;
+}
+.card__pointer h1{
+  font-family:  "Open Sans", Times, serif;
+  font-weight: bold;
+  font-size: 49px;
+  color: #5ebeca;
+  margin: 0;
+} 
+.card__pointer h3{
+  margin: 0;
+  font-size: 17px;
+  font-weight: normal;
+  color: #5ebeca;
+  font-family:  "Open Sans", Times, serif;
+}
+.card__pointer{
+  padding: 24px;
 }
