@@ -333,4 +333,11 @@ main{
 }
 table{
   width: 70%;
+  
+}
+thead{
+  background-color:#5ebeca;
+}
+thead th{
+  color: white!important;
 }
