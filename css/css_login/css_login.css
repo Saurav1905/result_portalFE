@@ -48,7 +48,7 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 100%;
-  width: 60%;
+  width: 50%;
   border-right: 1px solid;
   border-color: var(--offWhite1);
 }
@@ -86,7 +86,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  width: 60%;
+  width: 50%;
 }
 
 .form {
