@@ -48,7 +48,7 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 100%;
-  width: 70%;
+  width: 60%;
   border-right: 1px solid;
   border-color: var(--offWhite1);
 }
@@ -58,12 +58,12 @@ main {
 }
 
 .login .illustration img {
-  width: 40%;
+  width: 20vw;
 }
 
 .login .illustration h1 {
   color: var(--offBlack1);
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 200;
 }
 
@@ -100,7 +100,7 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 80%;
+  width: 95%;
   height: 90%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -111,8 +111,8 @@ main {
 }
 
 .form h2 {
-  font-size: 1.2em;
-  color: var(--offWhite2);
+  font-size: 3em;
+  color: black;
 }
 
 .form p {
@@ -129,7 +129,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -146,9 +146,14 @@ main {
   color: var(--primaryColor);
   font-size: 1em;
 }
-
+ .forgot label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .form input[type="text"],
 .form input[type="password"] {
+  width: 100%;
   padding: 1em 1em;
   border: 1px solid;
   border-radius: 3px;
@@ -167,6 +172,7 @@ main {
   margin: 2em 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  width: 100%;
 }
 
 .form input[type="submit"]:hover {
@@ -222,6 +228,7 @@ main {
   }
   .form {
     width: 100%;
+    padding: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
