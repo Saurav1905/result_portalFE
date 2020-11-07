@@ -326,3 +326,11 @@ font-family: "Open Sans", Times, serif;
 .card__pointer{
   padding: 24px;
 }
+main{
+  display: flex!important;
+  justify-content: center;
+  align-items: flex-start;
+}
+table{
+  width: 70%;
+}
