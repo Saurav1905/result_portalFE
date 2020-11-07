@@ -48,7 +48,7 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 100%;
-  width: 40%;
+  width: 70%;
   border-right: 1px solid;
   border-color: var(--offWhite1);
 }
@@ -229,5 +229,10 @@ main {
   .forgot label {
     text-align: center;
   }
+}
+.login{
+  -webkit-box-shadow: 2px 2px 19px 0px rgba(50, 50, 50, 0.29);
+-moz-box-shadow:    2px 2px 19px 0px rgba(50, 50, 50, 0.29);
+box-shadow:         2px 2px 19px 0px rgba(50, 50, 50, 0.29);
 }
 /*# sourceMappingURL=css_login.css.map */

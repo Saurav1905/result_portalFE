@@ -197,6 +197,10 @@ table {
 }
 
 @media (max-width: 620px) {
+  table{
+    margin-top: 10vh;
+    min-height: 60vh;
+  }
   mdl-grd,
   mdl-cell {
     position: relative;
@@ -205,11 +209,7 @@ table {
     max-width: 30vw;
     min-height: 10px;
   }
-  table {
-    position: absolute;
-    left: -10vw;
-    width: 125%;
-  }
+
   td {
     font-size: 10px;
     min-height: 10px !important;
@@ -225,6 +225,12 @@ table {
   padding-right: 40% !important;
 }
 @media (max-width: 480px) {
+
+  table{
+    margin-top: 10vh;
+    min-height: 60vh;
+  }
+  
   .left {
     padding-right: 0 !important;
   }
@@ -341,3 +347,6 @@ thead{
 thead th{
   color: white!important;
 }
+/* @media (max-width: 600px){
+
+} */
